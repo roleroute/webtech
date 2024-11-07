@@ -1,0 +1,5612 @@
+body{
+  overflow-x: hidden;
+}
+.blog-banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://webtechsolution.co/assets1/img/service/seobanner.jpg);
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.whatsapp-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 100%;
+ 
+}
+
+.hero-section {
+  text-align: center;
+  color: white;
+  background-color: #3e4d50;
+  background-image: url(https://datasolutionsexperts.com/wp-content/themes/seosight/images/bg-3.png);
+}
+
+.wht-inner{
+  width: 80%;
+  margin: auto;
+}
+
+.hero-section h1 {
+  font-size: 2.3em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hero-section h2 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #25D366; /* WhatsApp Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.how-it-works  ol{
+  padding-left: 0rem !important;
+}
+
+
+.faq li{
+  justify-content: start;
+}
+.key-features li{
+  justify-content: start;
+}
+ol, ul{
+       padding-left: 0rem;
+}
+.how-it-works ul, ol li {
+  justify-content: start;
+}
+
+.introduction {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.unique-slider-main-box2{
+  width: 100%;
+}
+
+.Frequently_Asked_Questions2{
+  width: 100% !important;
+  padding: 2rem;
+}
+
+.Frequently_Asked_Questions2 h1{
+  text-align: start !important;
+  margin-top: 2em !important;
+  margin-bottom: 0px !important;
+}
+
+.key-features{
+  display: flex;
+  align-items: center;
+}
+
+.wht-service-inn img{
+  height: 450px;
+}
+
+.wht-service-inn{
+  width: 50%;
+}
+
+.introduction li{
+  justify-content: start;
+}
+
+.plan {
+  background-color: #e6f7ff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.Testimonials{
+  padding: 2rem;
+}
+
+
+
+/* AllBlog.css */
+.blog-container {
+  padding: 20px;
+  width: 93%;
+  margin: auto;
+}
+
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.blog-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  position: relative;
+}
+
+.blog-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 4px;
+}
+
+.blog-actions {
+  margin-top: 10px;
+  border-radius: 50px;
+}
+
+.blog-actions button{
+  border-radius: 50px !important;
+  background-color: red !important; 
+  position: absolute !important;
+  top: 0;
+  right: 0;
+}
+
+.blog-container h1{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+
+
+.blog-card h2{
+  font-size: 20px;
+  text-align: start;
+  font-weight: 700;
+}
+.blog-content p{
+  text-align: start;
+  font-size: 13px;
+}
+.blog-content {
+  display: -webkit-box; /* Use flexbox */
+  -webkit-box-orient: vertical; /* Set orientation to vertical */
+  -webkit-line-clamp: 4; /* Limit to 4 lines */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+  color: rgb(68, 68, 68);
+  margin: 10px 0; /* Add some margin for better spacing */
+}
+
+.blog-actions button {
+  margin: 5px; /* Space between buttons */
+  padding: 8px 12px;
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #007bff; /* Primary button color */
+  color: white; /* Button text color */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.blog-actions button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+
+.quill {
+  margin-bottom: 55px;
+}
+
+.blog-inner-card {
+  width: 40%;
+  height: 100%;
+}
+
+.blog-inner-card h1 {
+  margin: 10px;
+  font-size: 35px;
+  color: white;
+}
+
+.blog-inner-card h2 {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.blog-inner-card p {
+  font-size: 15px;
+  margin: 10px;
+  text-align: -webkit-match-parent;
+  color: #fff
+}
+
+
+
+.blog-inner-card button {
+
+  background-color: #1c87c9;
+  -webkit-border-radius: 60px;
+  border-radius: 4px;
+  border: none;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 2%;
+  margin-top: 95px;
+  animation: glowing 1300ms infinite;
+
+}
+
+.blog-inner-card form {
+  background-color: white;
+  width: 70%;
+  height: 65%;
+  color: black !important;
+  padding: 30px;
+  margin-top: 55px;
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+.blog-inner-card form h1 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: rgb(112, 107, 107);
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+
+
+
+.form-group input {
+  width: 100%;
+  margin-bottom: 0%;
+  display: block;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  margin-top: -15px;
+
+}
+
+.Sms-box {
+  width: 100%;
+}
+
+.Sms-box h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+
+
+
+}
+
+.Bulk_services {
+  width: 40%;
+
+
+}
+
+.sms-outer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.Bulk_services h1 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: start;
+}
+
+.Bulk_services p {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.Bulk_services p1 {
+  font-size: 12px;
+  font-family: sans-serif;
+
+}
+
+.send button {
+  width: 100%;
+  background-color: #28a024;
+  color: white;
+  border-color: #28a024;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.checkbocheckbox {
+  display: flex;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 15px;
+  gap: 10px;
+}
+
+.Bulk_services img {
+  height: 350px;
+  width: 350px;
+  object-fit: contain;
+}
+
+.FREEQuote {
+  text-align: center !important;
+  color: black !important;
+  text-decoration: none;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.Promotional-box {
+  height: auto;
+  width: 80%;
+  display: flex;
+  gap: 10px;
+  margin: auto;
+  margin-top: 50px;
+  padding: auto;
+
+}
+
+.Promotional_services {
+  height: 100%;
+  width: 40%;
+
+}
+
+.Promotional_services h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Promotional_services p {
+  font-size: 12px;
+}
+
+.Promotional_services img {
+  height: 255px;
+  width: 390px;
+  object-fit: contain;
+}
+
+.Promotional_services1 {
+  height: 100%;
+  width: 60%;
+}
+
+.Promotional_services1 h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Promotional_services1 p {
+  font-size: 12px;
+}
+
+.Your_Bussiness {
+  height: 190px;
+  width: 100%;
+  background-image: url(https://webtechsolution.co/assets1/img/service/ivrbg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Your_Bussiness h1 {
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin-top: o;
+
+}
+
+.Your_Bussiness p {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+
+.Your_Bussiness button {
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid white;
+  color: rgb(252, 252, 252);
+  background-color: transparent;
+
+
+}
+
+.Bulk_SMS2 {
+  height: 70vh;
+  width: 100%;
+  background-color: #28a024;
+}
+
+.Features_SMS {
+  width: 90%;
+
+  text-align: center;
+  margin: auto;
+}
+
+.Features_SMS h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+
+}
+
+.Features_SMS p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 0;
+  color: #111111;
+}
+
+.Features-card-box {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Exclusive-card2 {
+  width: auto;
+  font-size: 10px;
+  height: auto;
+  color: gray;
+}
+
+.Exclusive-card2 .Exclusive-icon {
+  height: 100%;
+  width: 54px;
+
+}
+
+.Webteach_age {
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+
+
+}
+
+.Webteach_age-heading {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.Webteach_card {
+  height: auto;
+  width: 50%;
+
+}
+
+.Webteach_card img {
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  object-fit: contain;
+}
+
+.Webteach_card_Age {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+.Webteach-outer-card {
+  width: 90%;
+  height: 120px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+
+}
+
+.Webteach-inner-card {
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.Webteach-inner-card h1 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #28a024;
+}
+
+.Webteach-inner-card p {
+  font-size: 12px;
+  color: #5a5555
+}
+
+.Price {
+  height: auto;
+  width: 80%;
+  margin: auto;
+
+}
+
+.Price h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.Price p {
+  text-align: center;
+  font-size: 13px;
+}
+
+/* src/components/ImageSlider.css */
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  /* Change arrow colors */
+}
+
+/* src/components/ImageSlider.css */
+
+.slick-slide {
+  padding: 0 10px;
+  /* This adds 10px of gap between slides */
+}
+
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* Ensure padding doesn't overflow */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(1, 18, 5);
+  /* Change the arrow color */
+}
+
+.slider_price {
+  width: 100%;
+  margin-top: 30px;
+
+
+
+}
+
+.slider_price img {
+  height: 100%;
+  width: 80%;
+  box-sizing: border-box;
+  display: block;
+  background-color: azure;
+}
+
+.slider_price {
+  width: 70px;
+  background-color: white;
+  height: 350px;
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.slider_price h3 {
+  text-align: center;
+  font-size: 17px;
+  background-color: #28a024;
+  color: white;
+  padding: 5%;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider_price ul{
+  height: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slider_price ul li {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.hh {
+  background-color: #28a024;
+  color: white;
+  width: 100%;
+  border-color: #28a024;
+  margin-top: 40px;
+  position: absolute;
+  bottom: 0;
+}
+
+.Question {
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.Question h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.szh-accordion__item.szh-accordion__item--status-exited button {
+  width: 100% !important;
+  text-align: start;
+  border: none;
+  padding: 10px 0px;
+  background-color: transparent;
+  border-bottom: 1px solid hsla(0, 24%, 96%, 0.867);
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 24px;
+  padding-right: 25px;
+  margin-top: 13px;
+
+}
+
+.szh-accordion__item-btn {
+  width: 100%;
+  font-size: 15px;
+  text-align: start;
+  cursor: pointer;
+  background-color: transparent;
+  border-bottom: 1px solid #dddd;
+  cursor: pointer;
+  border: none;
+}
+
+.Question {
+  font-size: 32px;
+  cursor: pointer;
+
+}
+
+.szh-accordion__item--expanded {
+  border-bottom: 1px solid #dddd;
+  padding-bottom: 5px;
+}
+
+.szh-accordion__item-panel {
+  font-size: 13px;
+}
+
+.szh-accordion__item.szh-accordion__item--status-entered.szh-accordion__item--expanded button {
+  color: #28a024;
+}
+
+.Quick {
+  justify-content: start;
+  margin-top: 20px;
+}
+
+.Question .szh-accordion__item.szh-accordion__item--status-exited button {
+  border-bottom: 1px solid hsl(0deg 0.13% 65.05% / 86.7%);
+}
+
+.Quick b {
+  font-size: 18px;
+}
+
+.Bussiness {
+  height: 220px;
+  width: 100%;
+  background-image: url(https://webtechsolution.co/assets1/img/service/ivrbg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Bussiness h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #eeeeee;
+  margin-bottom: 20px;
+}
+
+.bg-footer {
+  background-color: #1b1b1b;
+  padding: 50px 0 30px;
+}
+
+.footer-heading {
+  letter-spacing: 2px;
+}
+
+.footer-link a {
+  color: #acacac;
+  line-height: 40px;
+  font-size: 11px;
+  transition: all 0.5s;
+}
+
+.footer-link a:hover {
+  color: #1bbc9b;
+}
+
+.contact-info {
+  color: #acacac;
+  font-size: 14px;
+}
+
+.footer-social-icon {
+  font-size: 8px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #4e71a8;
+  color: #ffffff;
+}
+
+.twitter {
+  background-color: #55acee;
+  color: #ffffff;
+}
+
+.google {
+  background-color: #d6492f;
+  color: #ffffff;
+}
+
+.apple {
+  background-color: #424041;
+  color: #ffffff;
+}
+
+.footer-alt {
+  color: #acacac;
+  font-size: 12px;
+}
+
+.footer-heading {
+  position: relative;
+  padding-bottom: 12px;
+  font-size: 11px;
+}
+
+.footer-heading:after {
+  content: '';
+  width: 25px;
+  border-bottom: 1px solid #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid #1bbc9b;
+}
+
+.list-unstyled.footer-link.mt-4 li {
+  justify-content: start;
+  font-size: 14px;
+}
+
+.Voice-box {
+  width: 90%;
+  margin: auto;
+}
+
+.Voice-box voice-box1 {
+  width: 90%;
+}
+
+.Voice-box p {
+  text-align: center;
+
+}
+
+.Voice-box h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: -5px;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+.Voice_services {
+  width: 40%;
+}
+
+.voice-outer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.Voice_services h1 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: -4 px;
+  text-align: start;
+}
+
+.Voice_services img {
+  height: 350px;
+  width: 350px;
+  margin-top: 40px;
+}
+
+.Voice_services p {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: start;
+}
+
+.Voice_services p1 {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.voice-card-icon img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.Bulk-Voice {
+  width: 85%;
+  margin: auto;
+  margin-top: 130px;
+  padding: 20px 0px;
+}
+
+.Bulk-Voice h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.Bulk-Voice p {
+  text-align: center;
+  margin: auto;
+}
+
+.bulk-voice-main-box {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  gap: 2px;
+}
+
+.bulk-voice-inner {
+  width: 33.33%;
+  height: 100%;
+}
+
+.bulk-voice-main-box .bulk-voice-inner:nth-child(2) img {
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+}
+
+.bulk-voice-content {
+  margin-bottom: 10px;
+}
+
+.bulk-voice-content p {
+  font-size: 12px
+}
+
+.bulk-voice-content h3 {
+  font-size: 15px;
+}
+
+.IVR {
+  height: 220px;
+  width: auto;
+  background-image: url(https://webtechsolution.co/assets1/img/service/ivrbg.jpg);
+  margin-top: 20px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.IVR h1 {
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.callback-section button {
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 10px 30px;
+  border: none;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  transition: .3s;
+
+}
+
+.callback-section button:hover {
+  background-color: #28a024;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.callback-form {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.close-button {
+  width: 70%;
+  display: flex;
+  justify-content: end;
+  padding-right: 10px;
+}
+
+.callback-form input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 4px;
+}
+
+.callback-form button {
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 10px 30px;
+  border: none;
+  background-color: #28a024;
+  border-radius: 5px;
+  color: white;
+  transition: .3s;
+  width: 100%;
+
+}
+
+.callback-form h1 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #111111;
+}
+
+.callback-form p {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.IVR button {
+  padding: 7px 35px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border: 1.5px solid #28a024;
+  color: white;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.IVR button:hover {
+  background-color: #28a024;
+}
+
+
+.Voicec-call-section {
+  height: auto;
+  width: 80%;
+  margin: auto;
+
+}
+
+.Voicec-call-section h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.Voicec-call-section h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 22px;
+
+}
+
+.Voicec-call-section p {
+  font-size: 13px;
+  text-align: center;
+
+}
+
+.voice-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.voice-card-icon {
+  margin-bottom: 10px;
+}
+
+.voice-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.voice-card-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.voice-card-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 40px;
+  width: 80%;
+  margin: auto;
+  gap: 10px;
+}
+
+.voice-card-main2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 40px;
+  width: 80%;
+  margin: auto;
+  gap: 10px;
+}
+
+.Name {
+  height: 50vh;
+  width: auto;
+  height: 220px;
+  width: auto;
+  background-image: url(https://webtechsolution.co/assets1/img/service/ivrbg.jpg);
+  margin-top: 20px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.PrivacyPolicy {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.PrivacyPolicy h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.PrivacyPolicy h2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.PrivacyPolicy p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.PrivacyPolicy ul {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
+.PrivacyPolicy ul li {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  justify-content: start;
+}
+
+.Frequently_Asked_Questions {
+  height: auto;
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+.Frequently_Asked_Questions h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.Frequently_Asked_Questions ul {
+  padding: 0px;
+}
+
+.Frequently_Asked_Questions ul li {
+  justify-content: start;
+  display: list-item;
+  list-style: circle;
+  margin-left: 20px;
+}
+
+.form-dis {
+  text-align: start !important;
+}
+
+.Lets-talk {
+  height: 70vh;
+  background-image: url(https://webtechsolution.co/assets1/img/service/bgcta.jpg);
+  margin-top: 20px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  gap: 20px;
+  padding: 0px 50px;
+
+}
+
+.Lets-main h1 {
+  text-align: start;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 30px;
+
+
+
+}
+
+.Lets-main {
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+}
+
+.Lets-main p1 {
+  font-size: 25px;
+}
+
+.Lets-main p2 {
+  font-size: 20px;
+}
+
+.Lets-main input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.Lets-main {
+  width: 50%;
+}
+
+.Lets-main input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 6px;
+
+}
+
+#checkbox {
+  width: auto;
+
+}
+
+.button23 button {
+  background-color: #28a024;
+  color: white;
+  width: 100%;
+  border-color: #28a024;
+}
+
+.Lets-address-box h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: gray;
+  margin-top: 10px;
+
+}
+
+.Lets-address-box p {
+  font-size: 12px;
+
+}
+
+.Lets-address-box h3 {
+  font-size: vs body font size;
+  font-weight: vs body font size;
+}
+
+.Lets-address-box h2 {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.form-dis {
+  font-size: 12px !important;
+}
+
+.Name h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 90px;
+  font-weight: 500;
+  color: white;
+
+}
+
+.development-banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://webtechsolution.co/assets1/img/hero-bg.jpg);
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.Our-Expertise {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.Our-Expertise-card {
+  height: 150px;
+  background-color: #1a1437;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  padding: 30px;
+  width: auto;
+}
+
+.Exclusive-card2 {
+  width: auto;
+  padding: 20px;
+}
+
+.Our-Expertise-icon {
+  height: 100%;
+  width: 100px;
+
+}
+
+.Our-Expertise-content {
+  width: 80%;
+  color: white;
+}
+
+.Our-Expertise-content h3 {
+  font-size: 20px;
+}
+
+.Our-Expertise-content p {
+  font-size: 14px;
+}
+
+.Our-Expertise-icon svg {
+  font-size: 33px;
+  color: #28a024;
+
+}
+
+.Talk-to {
+  height: 70vh;
+  background-color: #3011dd;
+  background-image: linear-gradient(120deg, rgba(25, 172, 30, 0.993) 1%, rgba(28, 35, 169, 0.64) 85%, rgb(23, 13, 97) 100%, rgba(3, 25, 69, 0.58));
+  margin-top: 20px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  gap: 20px;
+  padding: 0px 50px;
+}
+
+.Development {
+  height: 220px;
+  width: auto;
+  background-image: url(https://webtechsolution.co/assets1//img/service/bgcta.jpg);
+  margin-top: 20px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.Development p {
+  text-align: center;
+  color: white;
+  width: 80%;
+  font-size: 12px;
+}
+
+.Talk-main p3 {
+  font-size: 30px;
+}
+
+.allservices-box {
+  width: 100%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+  width: 80%;
+
+}
+
+.Full-stack h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
+
+
+
+}
+
+.Full-stack p {
+
+  margin-bottom: 0;
+  color: #111111;
+  text-align: center;
+  font-size: 13px;
+
+}
+
+.allservices-card {
+  margin-bottom: 50px;
+
+}
+
+.Phone {
+  background-color: #111111 !important;
+  height: 50vh;
+  width: auto;
+  height: 220px;
+  width: auto;
+  margin-top: 20px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.phone-input-group {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  gap: 100px;
+}
+
+.phone-input-group input {
+  width: 50%;
+  padding: 3px;
+  margin-bottom: 60px;
+
+}
+
+.button {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.button button {
+  width: 100%;
+  background-color: #28a024;
+  color: white;
+}
+
+.contact-page iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.contact-page h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+
+
+}
+
+.contact-page p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.Digital-box h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+
+}
+
+.Digital-box {
+  font-size: 12px;
+  margin-bottom: 0;
+  color: #111111;
+
+}
+
+.Digital_service p {
+  margin-top: 50px;
+  font-size: 12px;
+
+}
+
+.Voice-img {
+  width: 30%;
+}
+
+.Voice-img img {
+  object-fit: contain;
+}
+
+.Digital_service {
+  width: 50%;
+}
+
+
+.contact-page-banner {
+  width: 100%;
+  height: 90px;
+  background-color: #2b2b2b;
+  margin-bottom: 20px;
+  color: white;
+  padding: 0px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-page-banner a {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.About-service h1 {
+  text-align: start;
+  font-size: 15px;
+  color: #423f3f;
+  margin-top: 50px;
+
+}
+
+.About-service h2 {
+  font-size: 15px;
+  text-align: start;
+  margin-top: 0px;
+  color: #353434;
+  font-weight: bold;
+}
+
+.About-service p {
+  text-align: start;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.Mission {
+  height: 400px;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+
+}
+
+.Aboutmission {
+  width: 50%;
+}
+
+.Aboutmission h1 {
+  font-size: 1.5rem;
+}
+
+.Aboutmission h3 {
+  font-size: 1.5rem;
+}
+
+.Aboutmission h2 {
+  font-size: 1rem;
+
+}
+
+.Aboutmission h4 {
+  font-size: 1rem;
+}
+
+.Aboutimg img {
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+  margin-left: 50px;
+}
+
+.Aboutmission p {
+  font-size: 13px;
+}
+
+.Values {
+  height: 400px;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+
+}
+
+.Values-SMS {
+  width: 50%;
+
+}
+
+.Valuesimg img {
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+
+}
+
+.Values-SMS h1 {
+  font-size: 1.5rem;
+}
+
+.Values-SMS h2 {
+  font-size: 1rem;
+}
+
+.Values-SMS p {
+  font-size: 13px;
+}
+
+.Values-ul li {
+  justify-content: start;
+
+}
+
+.Values-ul {
+  padding: 0px;
+  padding-top: 20px;
+}
+
+.Admin-Manager-main {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.Admin-Manager {
+  width: 25%;
+  position: relative;
+  height: 350px;
+  cursor: pointer;
+}
+
+.whatsaap-hover {
+  position: absolute;
+  height: 350px;
+  width: 100%;
+  background-color: #0000007a;
+  top: 0px;
+  transform: scale(0);
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Admin-Manager:hover .whatsaap-hover {
+  transform: scale(1);
+}
+
+
+
+.Admin-Manager img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Ifabout {
+  font-size: 12px;
+
+}
+
+.Admin-Manager h1 {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.Admin-Manager p {
+  font-size: 12px;
+  color: #605f5f;
+  margin-left: 10px;
+}
+
+.Admin-Icons {
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.Admin-Icons svg {
+  font-size: 18px;
+  color: white;
+
+}
+
+.Blog-Marketing {
+  height: auto;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 84px;
+}
+
+.Blog-Name {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+.sidebar-item.search-form ul {
+  padding: 0px;
+}
+
+.Blog-Marketing .Blog-Name:last-child {
+  width: 30%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+}
+
+.pagination{
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.pagination button{
+  padding: 5px;
+  border: none;
+  background-color: #1b8c1f;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Blog-Name img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.lead-search{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.lead-search input{
+  border-radius: 8px;
+  border: 1px solid #dddd;
+}
+
+.lead-search button{
+  display: flex;
+  background-color: #1b8c1f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.blog-main-box{
+  width: 65%;
+}
+
+.Blog-Name h1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 20px 0;
+  margin-top: 10px;
+
+
+}
+
+.Blog-Name p {
+  font-size: 13px;
+  color: #525151;
+}
+
+.Blog-Name h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.search-form form {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 3px 10px;
+  position: relative;
+}
+
+.search-form form input[type=text] {
+  border: 0;
+  padding: 4px;
+  border-radius: 4px;
+  width: calc(100% - 40px);
+}
+
+.search-form form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 15px;
+  margin: -1px;
+  background: #28a024;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+  line-height: 0;
+}
+
+.Blog-Name ul li {
+  justify-content: start;
+
+}
+
+.Recent-blog {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.Recent-blog img {
+  height: 40px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.Recent-content p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.tag-btns {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tag-btns button {
+  color: #515151;
+  font-size: 14px;
+  padding: 3px 14px;
+  margin: 0 6px 8px 0;
+  border: 1px solid #c4c4c4;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.Mobile-Blog ul li p {
+  gap: 10px;
+}
+
+.OwnVoice h2 {
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: 600;
+  color: #424040;
+
+}
+
+.OwnVoice p {
+  text-align: start;
+  margin-top: -5px;
+  margin-bottom: 22px;
+
+}
+
+.OwnVoice ul li {
+  justify-content: start;
+  gap: 10px;
+}
+
+.OwnVoiceCard {}
+
+.OwnIVR p {
+  color: white;
+}
+
+.Voice_Price {
+  height: 300px;
+  width: 200px;
+}
+
+.New-banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://webtechsolution.co/assets1/img/service/bulkmessage.jpg);
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.IVRToll p1 {
+  margin-top: 30px;
+
+}
+
+.IVR2-card {
+  height: 100vh;
+  width: 100%;
+}
+
+.IVR2-card h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 85px;
+
+}
+
+.IVR2-card p {
+  text-align: center;
+}
+
+.IVR-inner-card {
+  height: 120px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.TollFree-box h1 {
+  font-size: 25px;
+  text-align: center;
+  color: #ece0e0;
+}
+
+.TollFree-box p {
+  font-size: 13px;
+  justify-content: center;
+  color: #bcb8b8;
+}
+
+.TollFree-services h1 {
+
+  text-align: start;
+  font-size: 16px;
+  color: #999494;
+}
+
+.TollFree-services p {
+  text-align: start;
+}
+
+.we-ivr h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #202020;
+}
+
+.IVR-inner-card2 {
+  height: 120px;
+  width: 50%;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.IVR-inner-card2p {
+  color: #cfc1c1;
+}
+
+.IVR-inner-card2 img {
+  height: 50px;
+  width: 50px;
+}
+
+.icon-text p {
+  text-align: start;
+  font-size: 13px;
+}
+
+.IVR-Special-Fetures {
+  height: auto;
+  width: 90%;
+  margin: auto;
+
+
+
+}
+
+.IVR-Special-Fetures h1 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #1c1b1b;
+
+}
+
+.IVR-Special-Fetures h2 {
+  text-align: center;
+  font: 1.5em sans-serif;
+}
+
+.IVR-Special-Fetures p {
+  text-align: center;
+}
+
+.Special-inner-card {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+
+}
+
+.Special-inner-card2 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+
+}
+
+.Special-inner-card2 img {
+  height: 60px;
+  width: 60px;
+}
+
+.Special-inner-card2 h1 {
+  font-size: 17px;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #232423;
+
+}
+
+.Special-inner-card2:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 5px 0 rgba(5, 103, 17, 0.5);
+}
+
+.Trans-inner2:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 5px 0 rgba(5, 103, 17, 0.5);
+}
+
+.Trans-inner2:hover h1 {
+  color: #1b8c1f;
+}
+
+.Special-inner-card2 p {
+  font-size: 13px;
+  color: #7c7878;
+}
+
+.Special-inner-card2:hover h1 {
+  color: green;
+}
+
+
+.OwnNumber-Webtech {
+  height: auto;
+  width: 90%;
+  margin: auto;
+
+
+}
+
+.OwnNumber-Webtech h1 {
+  font-size: 23px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-bottom: 30px;
+
+}
+
+.OwnNumber-Webtech p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 50px;
+  color: #111111;
+  font-family: sans-serif;
+
+}
+
+.OwnNumber-card {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+
+}
+
+.OwnNumber-card2 {
+  height: 250px;
+  width: 33.33%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+
+}
+
+
+.OwnNumber-card2 h2 {
+  font-size: 15px;
+  font-weight: 700;
+  color: green;
+}
+
+.OwnNumber-card2 p {
+  text-align: start;
+}
+
+.Wetechage-best {
+  height: auto;
+  width: 90%;
+  margin: auto;
+
+
+}
+
+.Wetechage-best h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 80px !important;
+}
+
+.Wetechage-best p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+}
+
+.Webtechage-best-card {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+
+}
+
+.Webtechage-best-card2 {
+  width: 30%;
+  margin-bottom: 20px;
+
+}
+
+.Webtechage-best-card2 h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -17px !important;
+  margin-right: 40px;
+
+}
+
+.Webtechage-best-card2 .icon-box i {
+  font-size: 40px;
+  float: left;
+  color: #28a024;
+}
+
+.IVR-banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://webtechsolution.co/assets1/img/service/seobanner.jpg);
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.IVR-Special-Inner-card2 {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+}
+
+.IVR-Android h1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.IVR-Android h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.Androidmission h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.Andoid-SMS h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.Android-Fetures h1 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #424141;
+}
+
+.Android-card2 P {
+  font-size: 13px;
+}
+
+.Android-card2 h1 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #252424;
+}
+
+.Development-Process {
+  height: 100vh;
+  width: 90%;
+  background-color: red;
+  margin: auto;
+}
+
+.Development-Process h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.Development-Process h2 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.Development-Process p {
+  text-align: center;
+}
+
+.Context-Us h1 {
+  color: #3f3d3d;
+}
+
+.Context-Us p {
+  font-size: 15px;
+}
+
+.Context-service p {
+  margin-top: 40px;
+  font-size: 13px;
+  color: #3d3c3c;
+
+}
+
+.Context-service h1 {
+  margin-top: auto;
+  font-size: 17px;
+  margin-bottom: auto;
+  font-weight: 600;
+  color: #494949;
+
+}
+
+.Context-service p {
+  font-size: 13px;
+  color: #3d3c3c;
+}
+
+.Contextmission h1 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #4a4a4a;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+.Our-Context {
+  height: auto;
+  width: 100%;
+  margin-top: 70px;
+
+}
+
+.Our-Context h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.Our-Context p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.Context-outer-card {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.Context-icons svg {
+  font-size: 50px;
+  text-align: start;
+  color: green;
+}
+
+.Context-icons {
+  text-align: start !important;
+}
+
+.Context-title {
+  font-size: 18px !important;
+  color: #1b8c1f;
+  font-weight: 600;
+
+}
+
+.Context-content {
+  font-size: 13px;
+  color: #3d3b3b;
+  margin-top: 10px !important;
+}
+
+.ContextName {
+  height: 30vh;
+  width: 100%;
+  background-image: url(https://webtechsolution.co/assets1/img/service/bgcta.jpg);
+}
+
+.Google-Service h5 {
+
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2
+}
+
+.Our-Google {
+  height: auto;
+  width: 90%;
+  margin: auto;
+
+}
+
+.Our-Google h1 {
+  font-size: 25px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.Our-Google2 {
+  height: 90vh;
+  width: 85%;
+  margin: auto;
+  color: #5b5353;
+  margin-bottom: 20px;
+}
+
+.Our-Google2 ul p {
+  margin-bottom: 10px;
+
+}
+
+.Context-inner-card .Context-content {
+  padding-left: 66px;
+  text-align: start !important;
+}
+
+.Context-inner-inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Google-title p {
+  font-size: 18px !important;
+  color: #46ae58;
+  font-weight: 600;
+  margin-left: 20px;
+
+}
+
+.Google-content {
+  font-size: 13px;
+  color: #3d3b3b;
+  margin-top: 10px !important;
+}
+
+
+.IVR-box {
+  width: 90%;
+  margin: auto;
+}
+
+.IVR-box voice-box1 {
+  width: 90%;
+}
+
+.IVR-box p {
+  text-align: center;
+  color: #565252;
+  font-size: 13px;
+
+}
+
+.IVR-box h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: -5px;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+
+.Voice_services {
+  width: 40%;
+}
+
+.voice-outer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.IVR-services2 h1 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: -4 px;
+  text-align: start;
+}
+
+.Voice_services img {
+  height: 350px;
+  width: 350px;
+  margin-top: 40px;
+}
+
+.IVR_services2 p {
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: start;
+}
+
+.Voice_services p1 {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.voice-card-icon img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.IVR-P {
+  text-align: start !important;
+  color: #514f4f !important;
+}
+
+.IVR-services2 {
+  width: 60% !important;
+}
+
+.IVR-service1 {
+  width: 40% !important;
+}
+
+.ivr-know h1 {
+  color: #565353 !important;
+}
+
+.Voice_service4 {
+  width: 60% !important;
+}
+
+.Voice_services3 {
+  width: 40% !important;
+}
+
+.Voice_services4 h1 {
+  color: #494747 !important;
+}
+
+.Voice_services4 p {
+  color: #383636;
+}
+
+.Voice-box2 h1 {
+  color: #3b3737 !important;
+
+}
+
+.About-service2 {
+  width: 60% !important;
+}
+
+.Development-box2 p {
+  font-size: 13px;
+}
+
+.Development-services2 {
+  width: 50% !important;
+}
+
+.Development-services1 {
+  width: 30% !important;
+}
+
+.Development-services2 h1 {
+  color: #474444;
+}
+
+.Development-services2 p {
+  color: #414141;
+}
+
+.TollFree2 {
+  width: 50% !important;
+}
+
+.TollFree1 {
+  width: 30% !important;
+}
+
+.Tollfree1 img src {
+  margin-right: 20px !important;
+}
+
+.Context-service2 {
+  width: 50% !important;
+}
+
+.Context-img1 {
+  width: 30% !important;
+
+}
+
+.Google-Service2 {
+  width: 50% !important;
+}
+
+.Google-img2 {
+  width: 40% !important;
+}
+
+.Google-img2 img {
+  object-fit: cover;
+}
+
+.Google-main {
+  display: flex;
+  align-items: center;
+}
+
+.Google-main .Context-icons.Google-icons svg {
+  font-size: 50px !important;
+}
+
+.Google-main .Google-title {
+  font-size: 14px !important;
+}
+
+.Context-content.Google-content.Google-content2 {
+  padding-left: 5% !important;
+  font-size: 12px !important;
+}
+
+.Pay-service {
+  width: 50% !important;
+}
+
+.Pay-img {
+  width: 30% !important;
+}
+
+.Our-PPC {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.our-header .react-tabs__tab-list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: none;
+}
+
+.Our-PPC .react-tabs__tab {
+  height: 70px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ddd;
+}
+
+.Our-PPC .react-tabs__tab--selected {
+  background-color: #28a024;
+  color: white;
+  border: none
+}
+
+.Our-PPC .react-tabs__tab--selected:focus {
+  border: none;
+}
+
+.Our-PPC h1 {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.Our-PPC p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.Advestising-Servicers {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.Advestising-Servicers h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+
+}
+
+.Advestising-Servicers p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.SEO-service p {
+  margin-top: 2% !important;
+  color: #595353;
+}
+
+.SEO-service h1 {
+  margin-bottom: -2% !important;
+  margin-top: 10% !important;
+  font-size: 20px;
+  color: #4a4949;
+}
+
+.SEO-service {
+  width: 60% !important;
+}
+
+.SEO-img {
+  width: 30% !important;
+}
+
+.SEO-box h1 {
+  color: #2d2c2c;
+}
+
+.we-SEO {
+  text-align: center;
+  font-size: 15px;
+}
+
+.we-know {
+  color: #454444;
+}
+
+.Need_an_Agency {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+
+
+}
+
+.Need_an_Agency h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Need-SEO {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  margin-top: 40px;
+
+
+}
+
+.Need-SEO p {
+  font-size: 13px;
+  text-align: start;
+}
+
+.Need-SEO2 {
+  height: 50vh;
+  width: auto;
+  margin: auto;
+
+
+}
+
+.Need-SEO2 h1 {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.Need-SEO2 p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.SEO-outer {
+  display: flex;
+  gap: 20%;
+}
+
+.SEO-inner p {
+  text-align: start;
+  margin-left: 50px;
+}
+
+.Grow-your {
+  height: auto;
+  width: 90%;
+  margin: auto;
+}
+
+.Grow-your h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.Grow-your h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.Grow-outer-card {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  gap: 20px;
+  display: flex;
+
+}
+
+.Grow-inner-card {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Grow-inner-card img {
+  height: 200px;
+  width: 300px;
+}
+.Our-Google2 {
+  height: auto;
+}
+.p-4 h5 {
+  text-align: center;
+}
+
+.p-4 p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.SEO-IVR h1 {
+  font-weight: 600;
+}
+
+.SEO-IVR p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.SEO-IVR h5 {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.Organic-rankings {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.Organic-rankings h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Organic-rankings h2 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+
+}
+
+.Organic-rankings p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 50px;
+
+}
+
+.Quality-SEO {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.SEO-strategies {
+  height: 150px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.SEO-strategies h1 {
+  text-align: start;
+  font-size: 15px;
+  margin-left: 70px;
+  margin-top: -42px;
+  color: #302e2e;
+}
+
+.SEO-strategies p {
+  text-align: start;
+  margin-left: 70px;
+  font-size: 13px;
+  color: #4e4b4b;
+}
+
+.SEO-Branch p {
+  text-align: start;
+}
+
+.Our-Generration h3 {
+  font-size: 22px;
+}
+
+.Our-Generration {
+  width: 50%;
+
+}
+
+.Our-Generration p {
+  font-size: 13px;
+}
+
+.PPC-Advertising p {
+  text-align: start;
+  font-size: 13px;
+}
+
+.PPC-Advertising h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.SEO-Branch h1 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.Services-Outer-Card {
+  width: auto;
+  height: auto;
+  background-color: greenyellow;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.Services-inner-card {
+  margin-top: 40px;
+  width: 50%;
+  height: 250px;
+  background-color: red;
+
+}
+
+.slider-container2 {
+  width: 95%;
+}
+
+.card2 {
+  border: none;
+  width: 100% !important;
+  max-width: 343px;
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #e2eefd;
+  padding: 40px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  border-radius: 0px;
+}
+
+.card2 img {
+  width: 60px;
+
+}
+
+.Our-Android h2 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.Android-Advertising ul li {
+  justify-content: start;
+  font-size: 13px;
+
+}
+
+.Android-Name {
+  width: 100%;
+  height: 180px;
+  background-image: url(https://webtechsolution.co/assets1/img/service/bgcta.jpg);
+  margin-bottom: 50px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Android-App {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  gap: 25px;
+  margin-top: 60px;
+}
+
+.Android-App4 {
+  width: 40%;
+  height: 100vh;
+
+  margin: auto;
+}
+
+.Android-App5 {
+  width: 60%;
+  height: 100vh;
+
+  margin: auto;
+
+}
+
+.Android-App4 h1 {
+  font-size: 25px;
+  text-align: start;
+  margin-top: 70px;
+}
+
+.Android-App4 p {
+  font-size: 13px;
+}
+ .container-form{
+  display: flex;
+  gap: 10px;
+ }
+ .submit-btn{
+  display: flex;
+   padding: 5px;
+   width: 80px;
+   
+ }
+.Android-App6 {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+
+}
+
+.Android-App7 {
+  width: 45%;
+  height: 250px;
+
+  margin-bottom: 20px;
+  box-shadow: black;
+
+}
+
+.Android-App7 svg {
+  font-size: 40px;
+  color: #1b8c1f;
+  margin-top: 25px;
+}
+
+.Android-App7 h5 {
+  margin-left: 50px;
+  margin-top: -30px;
+  color: #1b8c1f;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.Android-App7 p {
+  margin-left: 50px;
+}
+
+.Android-Icons img {
+  height: 200px;
+  width: 250px;
+}
+
+.SMO-banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://webtechsolution.co/assets1/img/service/social-media-optimiation-india1.jpg);
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.SMO-service p {
+  margin-top: 40px;
+
+}
+
+.SMO-p {
+  margin-top: 0px !important;
+}
+
+.SMO-Card2 {
+  height: auto;
+}
+
+.SMO-Services {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.SMO-Services h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: #353333;
+}
+
+.SMO-Services h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.SMO-Services p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.SM0-Services2 {
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.SMO-Services3 {
+  height: 250px;
+  border: 1px solid #dddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+  transition: .3s;
+
+}
+
+.SMO-Services3 h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.SMO-Services3:hover h1 {
+  color: #1b8c1f;
+}
+
+.SMO-Services3:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 5px 0 rgba(5, 103, 17, 0.5);
+}
+
+.SMO-Services3 p {
+  font-size: 11px;
+}
+
+.SMO-Services3 img {
+  width: 50px;
+}
+
+.panel-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Android-Icons {
+  width: 50%;
+}
+
+.Android-Icons img {
+  width: 100%;
+  height: 350px;
+}
+
+.pane-content {
+  width: 50%;
+}
+
+.SMO-Context p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.Transactional-SMS h1 {
+  text-align: center;
+  font-size: 25px;
+  color: #353333;
+
+}
+
+.Transactional-SMS p {
+  font-size: 12px;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.Transactional-Services2 {
+  width: 55%;
+}
+
+.Transactional-Services {
+  width: 30%;
+}
+
+.Transactional-Services2 P {
+  text-align: start;
+  margin-top: 0%;
+}
+
+.Transactional-Services2 h1 {
+  text-align: start;
+  font-size: 20px;
+  margin-bottom: -2%;
+  margin-top: 0%;
+  margin-left: 48px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-weight: 550;
+  color: #363434;
+
+}
+
+.Trans-inner2 p {
+  font-size: 12px;
+}
+
+.Trans-inner2 h1 {
+  font-size: 17px;
+}
+
+.Trans-inner2 p {
+  font-size: 12px;
+}
+
+.Transactional-Fetures {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.Transactional-Fetures2 {
+  font-size: 20px !important;
+  color: #1b8c1f !important;
+}
+
+.Fetures-Transactional-SMS {
+  height: auto !important;
+  width: 100% !important;
+  margin: auto !important;
+  background-color: #71f36023 !important;
+
+}
+
+.Fetures-Transactional-SMS h1 {
+  text-align: center !important;
+  font-size: 23px !important;
+  font-weight: 550 !important;
+  color: #1b8c1f !important;
+  margin-top: 30px !important;
+}
+
+.Fetures-Transactional-SMS p {
+  text-align: center !important;
+  font-size: 13px !important;
+  width: 80% !important;
+  margin: auto !important;
+
+}
+
+.Trans-SMS-inner {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  gap: 10px;
+  display: flex;
+}
+
+.Trans-SMS-inner2 {
+  height: 300px;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  background-color: white;
+}
+
+.Trans-SMS-inner2 h1 {
+  font-size: 17px !important;
+  color: #000 !important;
+  margin-bottom: 0% !important;
+}
+
+.Trans-SMS-inner2 p {
+  font-size: 11px !important;
+  margin-top: 10px !important;
+}
+
+.Testimonials2 h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.Testimonials2 p {
+  text-align: center;
+}
+
+.Front_SMS_box h1 {
+  text-align: center;
+  font-size: 23px;
+}
+
+.Front_SMS_box p {
+  text-align: center;
+  font-size: 13px !important;
+  width: 85% !important;
+  margin: auto !important;
+}
+
+.Front_services p {
+  text-align: start;
+  margin-top: 50px !important;
+  color: #4e4b4b;
+}
+
+.Front_services {
+  width: 50% !important;
+}
+
+.Bulk_services img {
+  height: 350px !important;
+  width: 350px !important;
+}
+
+.Right-for-Your {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.Right-for-Your h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.Right-for-Your p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.International-SMS {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+
+}
+
+.International-SMS2 {
+  height: 350px;
+  width: 35%;
+  margin: auto;
+  margin-top: 5% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 30px;
+  border: 1px solid #ddd;
+
+}
+
+.International-SMS2:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 5px 0 rgba(5, 103, 17, 0.5);
+}
+
+.International-SMS2 h1 {
+  text-align: center;
+  font-size: 17px;
+  color: #423f3f;
+}
+
+.International-SMS2 p {
+  text-align: center;
+  font-size: 12px;
+  color: #4b4949;
+}
+
+.International-SMS2 img {
+  margin-top: -60px;
+}
+
+.International-SMS2 a {
+  padding-top: 30px;
+}
+
+.Popular-SMS {
+  height: auto;
+  width: 90%;
+  margin: auto;
+
+}
+
+.Popular-SMS h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 550;
+
+}
+
+.Popular-SMS p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.Popular-Card {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  margin-top: 40px !important;
+}
+
+.Popular-inner-card {
+  height: 400px;
+  width: 25%;
+
+
+  height: 400px;
+  width: 25%;
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  border: 1px solid #ddd;
+
+
+}
+
+.Popular-inner-card h1 {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.Popular-inner-card img {
+  height: 60px;
+  width: 60px;
+  display: flex;
+}
+
+.Popular-inner-card p {
+  text-align: center;
+  font-size: 12px;
+  color: #4a4848;
+  line-height: 22px;
+
+}
+
+.Popular-inner-card:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 5px 0 rgba(5, 103, 17, 0.5);
+}
+
+.Popular-inner-card {
+  box-shadow: green;
+}
+
+.Popular-inner-card:hover h1 {
+  color: #1b8c1f;
+}
+
+.Service-Platform {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.Service-Platform h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.Service-Platform h2 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.Service-Platform p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.Easy-Bulk-SMS {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.Easy-Bulk-SMS2 {
+  height: 330px;
+  width: 23%;
+  margin: auto;
+  margin-bottom: 20px;
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  border: 1px solid #ddd;
+
+
+}
+
+.Easy-Bulk-SMS2:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 5px 0 rgba(5, 103, 17, 0.5);
+}
+
+.Easy-Bulk-SMS2:hover h1 {
+  color: #1b8c1f;
+
+}
+
+.Easy-Bulk-SMS2 h1 {
+  text-align: center;
+  font-size: 17px;
+}
+
+.Easy-Bulk-SMS2 p {
+  text-align: center;
+  font-size: 12px;
+  color: #4a4848;
+  line-height: 22px;
+}
+
+.Easy-Bulk-SMS2 img {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.Bulk-title {
+  font-size: 15px;
+  color: #000;
+}
+
+.Bulk-content {
+  font-size: 11px;
+}
+
+.Webtechage-best-card2 svg {
+  font-size: 35px;
+  color: #1b8c1f;
+}
+
+.Webtechage-best-card2 p {
+  margin-top: 10px !important;
+}
+
+.Webtechage-best-card2 {
+  padding: 20px;
+  border: 1px solid #dddd;
+}
+
+.Webtech-H {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
+  gap: 10px;
+}
+
+.Features-Benifits {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.Features-Benifits h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.Features-Benifits h2 {
+  text-align: center;
+  font-size: 26px !important;
+  font-weight: 400;
+}
+
+.Features-Benifits p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.Sender-Id-SMS {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.Sender-header {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.Sender-header h2 {
+  font-weight: bold;
+}
+
+.Sender-Id-SMS-2 {
+  height: 45px;
+  border: 1.5px solid green;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+
+}
+
+.Sender-Id-SMS-2:hover {
+  background-color: #1b8c1f;
+  color: white;
+}
+
+.Sender-Id-SMS-2 h6 {
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.Sender-Id-SMS-2 svg {
+  color: #1b8c1f;
+  font-size: 12px;
+}
+
+.Sender-Id-SMS-2:hover svg {
+  color: white;
+}
+
+.Copyright {
+  width: 100%;
+  height: 300px;
+  background-color: #000000;
+  margin-bottom: -30px;
+}
+
+.Copyright-outter {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+
+}
+
+.Copyright-inner {
+  height: 100px;
+  width: 30%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #1b8c1f;
+
+}
+
+.Copyright-inner svg {
+  font-size: 40px;
+}
+
+.Copyright-inner h2 {
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.Copyright-inner p {
+  color: white;
+}
+
+.Android-card2 {
+  height: 230px !important;
+}
+
+.voice-card:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 5px 0 rgba(5, 103, 17, 0.5);
+}
+
+.Card3 h3 {
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+
+.Card3 img svg {
+  height: 50px;
+  width: 70px;
+}
+
+.Card3 h3 :hover::before {
+  color: #000000;
+  border-color: white;
+
+}
+
+.Card3 h3:hover ::after {
+  color: white;
+
+}
+.Bulk-Voice {
+  margin-top: 20px;
+}
+.button1{
+  text-align-last: right;
+  box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+}
+.button1 button{
+  display: inline-block;
+  background: #28a024;
+  color: #fff;
+  padding: 6px 20px;
+  transition: 0.3s;
+  font-size: 14px;
+  border-radius: 4px;
+
+}
+.Mobile-Blog{
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.spanblog {
+  display: flex;
+  margin-bottom: 20px;
+}
+.spanblog span{
+ font-size: 15px;
+ display:flex;
+gap: 5px;
+align-items: center;
+padding-right: 10px;
+}
+
+.Our-Context {
+  margin-top: 0px;
+}
+.App {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar.navbar-expand-lg{
+  display: none;
+}
+.PrivacyPolicy2 li{
+  margin-bottom: 10px !important;
+  font-size: 16px !important;
+}
+@media (max-width:800px) {
+
+  .navbar.navbar-expand-lg{
+    display: block;
+  }
+
+  .blog-main-box {
+    width: 100%;
+  }
+
+  .main-ul {
+    position: absolute;
+    height: 100vh;
+    background-color: green;
+    left: -12px;
+    top: 105px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+
+  nav ul {
+    gap: 20px;
+  }
+
+  .blog-inner-card form {
+    background-color: red;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    border: 2px solid #fff;
+    background: #fff;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+
+  }
+  .carousel-inner{
+    max-height: auto;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+  .card-main-box{
+    display: block;
+    unicode-bidi: isolate;
+    width: 100%;
+
+  }
+  .section-3{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+   width: 100%;
+   flex-direction: column;
+  }
+  .card-2 {
+    display: flex;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+}
+  
+.callback-section{
+  display: flex;
+  width: 100%;
+  padding: 20px;
+ 
+}
+.we-know{
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+}
+.resultsection{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 20px;
+
+
+}
+.Ifyouare{
+  font-size: 13px;
+  padding: 20px;
+}
+
+.Features-card-box{
+  grid-template-columns: repeat(1, 1fr);
+  margin: auto;
+  padding: 20px;
+}
+
+.Exclusive{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1* var(--bs-gutter-y));
+  margin-right: calc(-.5* var(--bs-gutter-x));
+  margin-left: calc(-.5* var(--bs-gutter-x));
+  padding: 15px;
+}
+.BLOG{
+  margin-bottom: 4%;
+
+}
+.Blog{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1* var(--bs-gutter-y));
+  margin-right: calc(-.5* var(--bs-gutter-x));
+  margin-left: calc(-.5* var(--bs-gutter-x));
+  padding: 15px;
+}
+.Contact{
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+
+}
+.contact-main-box{
+display: flex;
+width: 100%;
+flex-direction: column;
+
+
+}
+.contact-inner-box{
+  width: 100%;
+}
+.contact-form{
+  width: 100%;
+  flex-direction: column;
+  padding: auto;
+}
+
+.simple-slider-main-box{
+  
+}
+.Traffic button{
+  margin: auto;
+}
+.Traffic{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.section-3{
+  padding: 50px 0;
+  color: rgb(0, 0, 0);
+}
+
+section {
+  width: 100%;
+
+}
+.img-box-3{
+width: 100%;
+padding: 25px;
+object-fit: none;
+}
+.Copyright-outter{
+
+}
+.Frequently_Asked_Questions{
+  font-size: 13px;
+  margin-top: 20px;
+}
+.Copyright-outter{
+  flex-direction: column;
+}
+.Copyright {
+  height: auto;
+  margin: auto;
+}
+
+.Copyright-inner {
+  width: 100%;
+  font-size: 18px;
+  margin: auto;
+  height: auto;
+}
+.blog-banner{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  flex-wrap: wrap;
+  margin-top: calc(-1* var(--bs-gutter-y));
+  margin-right: calc(-.5* var(--bs-gutter-x));
+  margin-left: calc(-.5* var(--bs-gutter-x));
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.blog-banner{
+  flex-direction: column;
+}
+.blog-inner-card{
+  width: 100%;
+}
+.blog-inner-card{
+  padding: 20px;
+}
+.Front_SMS_box{
+  width: 100%;
+  flex-direction: column;
+
+}
+.Front_Outer{
+  flex-direction: column;
+  width: 100%;
+
+}
+.Front_services {
+  width: 100% !important;
+}
+.blog-inner-card form{
+  display: none
+}
+
+
+.Popular-SMS{
+  padding: 0px 0;
+  overflow: hidden;
+  position: relative;
+}
+.Popular-card {
+  flex-direction: column;
+
+}
+
+
+  .phone-input-inner {
+    margin-top: 50px;
+  }
+  .International-SMS {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .International-SMS2{
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+  }
+  .International-SMS2 img{
+    margin: auto;
+  }
+  .Bulk_services img {
+  height: auto !important;
+  width: 100% !important;
+  }
+  .Bulk_services {
+    height: auto;
+    width: 100%;
+  }
+  .Popular-SMS{
+
+  }
+ .Popular-Card{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+ }
+.Popular-inner-card{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Easy-Bulk-SMS{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Easy-Bulk-SMS2{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Context-outer-card{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Context-inner-card{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Bulk-content {
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.Context-outer-card{
+  grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+.Talk-to{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Talk-main{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Lets-main{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+.Sms-box{
+
+}
+.sms-outer{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Promotional-box{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Promotional_services1{
+  height:auto ;
+  width: 100%;
+  padding: 20px;
+}
+.Features-card-box{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Exclusive-card2{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+.Webteach_age{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  
+}
+.Webteach_card{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin: auto;
+ 
+}
+.Webteach-outer-card{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.Trans-inner{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Transactional-Fetures2{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Transactional-Services2 {
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Trans-SMS-inner2{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Trans-SMS-inner{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+
+}
+.Lets-talk{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Lets-main{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.voice-outer{
+  flex-direction: column;
+  height:auto;
+  width: 100%;
+  margin: auto;
+}
+.Voice_services4{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+.bulk-voice-main-box{
+flex-direction:column;
+height: auto;
+width: 100%;
+}
+.bulk-voice-inner{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.Bulk-Voice{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.voice-card-main{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+
+}
+.Voicec-call-section{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.voice-card{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Digital-box{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  
+}
+.voice-outer{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Voice-img{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.OwnVoice{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+  .we-know::before{
+    margin-top: 25px;
+}
+.OwnNumber-Webtech{
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+}
+.OwnNumber-Webtech h1{
+  font-size: 15px;
+}
+.OwnNumber-card{
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+.OwnNumber-card2{
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Wetechage-best{
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  padding: 20px;
+  width: 100%;
+}
+.Webtechage-best-card{
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+.Webtechage-best-card2{
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.IVR-services2 {
+  width: 100% !important;
+}
+.phone-input-group{
+  flex-direction: column;
+  gap: 0px;
+  width: 100%;
+}
+.phone-input-group input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.button{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.IVR{
+  height: auto;
+  padding: 20px;
+}
+.Name{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.Exclusive {
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+  height: auto;
+}
+.Voice_services img{
+  width: 300px;
+}
+.OwnIVR{
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  height:auto;
+}
+.IVR2-card{
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+.IVR-inner-card{
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+.IVR-inner-card2{
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  height: auto;
+
+}
+.IVR-Special-Fetures{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.Special-inner-card{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+}
+.Special-inner-card2{
+ flex-direction: column;
+ height: auto;
+ padding: 20px;
+ margin: auto;
+}
+.OwnIVR{
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+  margin-top: 30px;
+}
+.Digital-box{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  
+}
+.voice-outer{
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Voice_services img{
+  height: auto;
+  margin: auto;
+}
+.TollFree2{
+  height: auto;
+  flex-direction: column;
+  width: 100% !important;
+  margin: auto;
+  
+}
+.Voice_services p {
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  padding: 20px;
+}
+.OwnVoice h2 {
+  margin-top: 0px;
+}
+.callback-section{
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  padding: 20px;
+}
+.Development-services2{
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100% !important;
+}
+.Voice_services h1 {
+  text-align: center;
+}
+.Voice-box h1 {
+  margin: auto;
+  padding: auto;
+  padding-bottom: 0px;
+}
+.Full-stack{
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+}
+.allservices-box{
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+}
+.About-us{
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+}
+.voice-outer{
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+}
+
+.Voice_services {
+  width: 100%;
+}
+.IVR-Android h2 {
+  width: 100%;
+  text-align: center;
+}
+.Mission{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Aboutmission {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Values{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Andoid-SMS{
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+  
+}
+
+.our-header .react-tabs__tab-list{
+  flex-direction: column;
+}
+
+.Our-PPC .react-tabs__tab{
+  width: 100%;
+}
+.panel-box {
+  flex-direction: column;
+}
+.pane-content{
+  width: 100%;
+}
+.Android-Icons{
+  width: 100%;
+}
+.Android-App{
+  width: 100%;
+  flex-direction: column;
+  height: auto;
+}
+.Android-App5{
+  height: auto;
+  width: 100%;
+}
+.Android-App6{
+  width: 100%;
+}
+.Android-App7 p {
+  margin: 0px;
+}
+.Android-App4{
+  width: 100%;
+  height: auto;
+}
+.Values-SMS{
+  width: 100%;
+}
+.Valuesimg img{
+  width: 100%;
+  height: 350px;
+}
+.Aboutimg img{
+  width: 100%;
+  height: 350px;
+  margin: 0px;
+}
+.Aboutmission.Androidmission{
+  padding: 20px;
+}
+.Values-SMS.Andoid-SMS{
+  padding: 20px;
+}
+.Android-Name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px
+}
+.form-container.container-form input{
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+.form-container.container-form button{
+  width: 100%;
+  padding: 8px;
+}
+.Android-App{
+  padding: 20px;
+}
+.IVR-Special-Fetures.Android-Fetures{
+  padding: 20px;
+}
+.Special-inner-card2 {
+  width: 100%;
+}
+.Android-App7{
+  height: auto;
+}
+.Digital-box {
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+}
+.Digital-box h1 {
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+}
+.SEO-box{ 
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+.SEO-outer{
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+.SEO-service{
+  width: 100% !important;
+  height: auto;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+}
+.Grow-your {
+  width: 100%;
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+}
+.Grow-outer-card {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Grow-inner-card{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Organic-rankings {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+}
+.Quality-SEO{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.SEO-strategies{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  gap: 20px;
+}
+.Grow-your h1 {
+  margin-top: 125px;
+}
+.SMO-Services{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  
+}
+.SM0-Services2{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.SMO-Services3{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+.SM0-Services2 {
+  grid-template-columns: repeat(1, 1fr);
+
+}
+.callback-section{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Pay-img{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Pay-service {
+  width: 100 !important;
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+}
+.Pay-img {
+  width: 100% !important;
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+}
+.Pay-service {
+  width: 100% !important;
+}
+.Context-Us{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.Context-service2{
+  width: 100% !important;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+}
+.phone-input-group {
+  margin: auto;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.button {
+  margin: auto;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  margin-top: -50px;
+}
+.Google-Service2{
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100% !important;
+  padding: 20px;
+}
+.About-us{
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100% !important;
+  padding: 20px;
+}
+.About-service2 {
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100% !important;
+  padding: 10px;
+}
+.Aboutmission {
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100% !important;
+  padding: 20px;
+}
+.Aboutimg img {
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+.Valuesimg{
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+.Values-SMS {
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Admin-Manager-main{
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.Admin-Manager {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.contact-page-banner {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  
+}
+
+.Webteach-inner-card {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+
+}
+.Bussiness {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.Your_Bussiness {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.Testimonials2 {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.Testimonials2 p{
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.Question {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.container2 {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.contact-address-box2 {
+  flex-direction: column;
+  margin: auto;
+  width:100%;
+  height: auto;
+}
+.contect-inner-i{
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.contact-address-box {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  
+}
+.contact-page{
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.contact-form{
+  height: auto;
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  padding: 20px;
+}
+.whatsaap-hover {
+  background-color: transparent;
+}
+.Promotional_services img {
+  flex-direction: column;
+ margin: auto;
+}
+.Webteach_card_Age{
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+}
+.Bulk-Voice {
+  margin: auto;
+}
+.Our-Context {
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.Context-outer-card {
+  gap: 0px;
+}
+.Phone {
+  flex-direction: column;
+  height: 100%;
+  margin: auto;
+  padding: 20px;
+
+}
+.callback-section {
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+}
+.Traffic {
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+  margin-top: 30px;
+}
+.Blog {
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+}
+.card-main-box{
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+}
+.card {
+  flex-direction: column;
+  height:300px;
+  margin: auto;
+  width: 100% !important;
+  margin-top: 20px;
+  max-width: 350px;
+}
+.Sms-box {
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  padding: 20px;
+}
+.IVR-Special-Fetures {
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.Transactional-SMS{
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.Name h1 {
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  height: auto;
+}
+.Development-box2{
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  height: auto;
+}
+.Android-App5 {
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  height: auto;
+}
+.Digital-box {
+  padding: 20px;
+}
+.SMO-Services {
+  padding: 20px;
+}
+.About-service h2 {
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+ 
+}
+.Advestising-Servicers {
+  height: auto;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.Front_services p {
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  padding: 0px;
+}
+.Front_services p {
+  margin: auto !important;
+  width: 100%;
+  flex-direction: column;
+  height: auto;
+}
+.top-nav-inner2{
+  display: none
+}
+.SEO-service p {
+  margin:auto !important ;
+}
+.Organic-rankings p {
+  margin-bottom: auto;
+}
+.Need_an_Agency {
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+.top-nav-inner p {
+  width: 50%;
+  font-size: 12px;
+}
+.top-nav-inner{
+  width: 100%;
+}
+.topnav {
+  padding: 0px
+}
+.Promotional-box {
+  margin-top: 0px;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+.Sms-box {
+  padding: 0px;
+}
+.Frequently_Asked_Questions h1 {
+  margin-top: 10%;
+}
+.Voice_services img {
+ flex-direction: column;
+ margin: auto;
+}
+.bulk-voice-main-box {
+  padding: 20px;
+}
+.Sms-box {
+  padding: 5px;
+}
+.Webteach_card img {
+  height: 300px;
+  width: 350px;
+  margin: auto;
+  flex-direction: column;
+}
+.Bulk_services {
+  padding: 20px;
+}
+.Transactional-Services2 h1 {
+  height: auto;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+.Transactional-Services2 h1 {
+  padding: 20px;
+}
+.Transactional-Services2 P {
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+}
+.blog-inner-card button {
+  margin-top: 10px;
+}
+.Transactional-SMS h1 {
+  flex-direction: column;
+  margin: auto;
+  font-size: 15px;
+  width: 100%;
+  
+}
+.Sms-box h1 {
+  font-size: 20px;
+}
+.bulk-voice-content h3 {
+  font-size: 20px;
+}
+.OwnVoice h2 {
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+.allservices-box {
+  width: 100%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+  width: 80%;
+}
+.OwnVoice ul{
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  text-align: start;
+}
+.IVR-Special-Fetures h1 {
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  font-size: 25px;
+
+}
+.Voice-img {
+  padding: 0px;
+}
+.Our-Context {
+  margin-top: 136px;
+}
+.contact-address-box {
+  margin-bottom: 10px;
+}
+.Ifyouare {
+  margin-top: 0px;
+}
+.Full-stack h1 {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+.Full-stack p {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.Phone {
+  margin-top: 20px;
+}
+.contact-page h1 {
+  flex-direction: column;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.contact-page p {
+  flex-direction: column;
+  margin: auto;
+  font-size: 15px;
+  height: auto;
+  padding: 10px;
+}
+.About-us {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.About-us h1 {
+  font-size: 25px;
+}
+.About-service p{
+  font-size: 13px;
+}
+.Digital-box h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.Digital-box p{
+  flex-direction: column;
+  font-size: 13px;
+}
+.Digital_service {
+  flex-direction: column;
+  font-size: 13px;
+  margin: auto;
+  height: auto;
+}
+.IVR-Special-Fetures h1 {
+  font-size: 15px;
+}
+.Development-box2 h1 {
+ margin-bottom: 20px;
+ font-size: 25px;
+}
+.Context-inner-card {
+  margin-top: -22px;
+}
+.Android-Fetures h1{
+  font-size: 17px;
+}
+.IVR-box h1 {
+ margin-bottom: 10px;
+}
+.Promotional_services {
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+}
+.Bulk_services h1 {
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+}
+.Bulk_services p {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+.Testimonials2 {
+  padding: 0px;
+}
+.Voice_services4 h1{
+font-size: 22px;
+}
+.Frequently_Asked_Questions h1 {
+  flex-direction: column;
+  margin: auto;
+  font-size: 26px;
+
+}
+.form-container.container-form button {
+  padding: 2px;
+}
+.form-container.container-form input {
+  padding: 2px;
+}
+.Voice_services p {
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+}
+.SEO-box p{
+  font-size: 15px;
+}
+.Blog-Marketing {
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+.Blog-Name{
+  flex-direction: column;
+  margin: auto;
+  width: 100% !important;
+  height: auto;
+  padding: 20px;
+}
+.sidebar-item .search-form{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.Blog-Name img {
+  height: 200px;
+  width: 100%;
+  margin: auto;
+}
+.Recent-blog {
+  flex-direction: column;
+}
+
+.Blog-Name h1 {
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+
+}
+.Blog-Name p {
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+}
+.Recent-content p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.spanblog{
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+}
+.Digital-box h1 {
+  height: auto;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+.Context-service2 {
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+}
+.Contextmission{
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  width: 100%;
+}
+
+section{
+  padding: 10px;
+}
+
+.wht-service-inn img {
+  height: 300px;
+  width: 300px;
+}
+
+.wht-service-inn h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.service-plans h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.how-it-works h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Frequently_Asked_Questions {
+  padding: 10px;
+}
+
+.Frequently_Asked_Questions h1{
+  margin-top: 0px !important;
+  font-size: 18px;
+}
+
+.hero-section h1 {
+  font-size: 20px;
+}
+
+.hero-section h2{
+  font-size: 13px;
+}
+
+.Testimonials{
+  margin-top: 15px !important;
+}
+
+.cta-button{
+  padding: 5px;
+  margin-bottom: 8px;
+}
+
+.introduction{
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.key-features{
+  flex-direction: column-reverse;
+  margin-bottom: 20px;
+}
+
+.wht-inner{
+  width: 95%;
+}
+
+.wht-service-inn{
+  width: 100%;
+}
+
+.Copyright-inner h2 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.Copyright-inner p{
+  font-size: 15px;
+}
+.Copyright{
+  padding-top: 20px;
+}
+.Copyright-inner svg {
+  font-size: 25px;
+}
+.logo img{
+  height: 40px;
+  width: 102px;
+}
+header{
+  display: none;
+}
+
+.nav-item{
+  justify-content: start;
+  display: block;
+}
+}
