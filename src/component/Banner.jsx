@@ -372,7 +372,7 @@ const Banner = () => {
                   <b>SMS Delivery On DND</b>
                 </li>
                 <li>13 Paisa Per SMS</li>
-                <li>Quantity: 1 Lac</li>
+                <li>Quantity: 5 Lac</li>
                 <li>Free API &amp; 100% SMS Deliver</li>
                 <li>Free Excel Plugin to send SMS Directly Through Excel</li>
               </ul>
