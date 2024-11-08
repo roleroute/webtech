@@ -38,6 +38,8 @@ import UpdateBlog from "./component/UpdateBlog";
 import AllBlog from "./component/AllBlog";
 import Login from "./pages/Login";
 import ProtectedRoute from "./component/ProtectedRoute";
+import RefundPolicy from "./pages/RefundPolicy";
+
 
 
 const App = () => {
@@ -50,6 +52,7 @@ const App = () => {
         <Route path="/Voice" element={<Voice />} />
         <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
         <Route path="/Term&Coditions" element={<Term_Coditions />} />
+        <Route path="/RefundPolicy" element={<RefundPolicy/>}/>
         <Route path="/IVR" element={<IVR />} />
         <Route path="/Development" element={<Development />} />
         <Route path="Digital" element={<Digital />} />

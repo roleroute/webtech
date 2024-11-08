@@ -359,73 +359,55 @@ const Banner = () => {
         <div>
           <Slider {...settings}>
             <div className="slider_price">
-              <h3>Standard</h3>
-              <ul>
-                <li>
-                  <b>65000</b>
-                </li>
-                <li>Unlimited Time</li>
-                <li>
-                  <b>Sender Id Based</b>
-                </li>
-                <li>
-                  <b>SMS Delivery On DND</b>
-                </li>
-                <li>13 Paisa Per SMS</li>
-                <li>Quantity: 5 Lac</li>
-                <li>Free API &amp; 100% SMS Deliver</li>
-                <li>Free Excel Plugin to send SMS Directly Through Excel</li>
-              </ul>
-              <div class=" center homebutton">
-                <a href="#" class="btn solid-btn btn-block center hh">
-                  Pay Now
-                </a>
-              </div>
-            </div>
-            <div className="slider_price">
-              <h3>Unlimited</h3>
-              <ul>
-                <li>
-                  <b>12000</b>
-                </li>
-                <li>Unlimited Time</li>
-                <li>
-                  <b>Sender Id Based</b>
-                </li>
-                <li>
-                  <b>SMS Delivery On DND</b>
-                </li>
-                <li>12 Paisa Per SMS</li>
-                <li>
-                  <li>Quantity: 1 Lac</li>
-                </li>
-                <li>Free API &amp; 100% SMS Deliver</li>
-                <li>Free Excel Plugin to send SMS Directly Through Excel</li>
-              </ul>
-              <div class=" center homebutton">
-                <a href="#" class="btn solid-btn btn-block center hh">
-                  Pay Now
-                </a>
-              </div>
-            </div>
-            <div className="slider_price">
               <h3>Basic</h3>
               <ul>
                 <li>
-                  <b>14000</b>
+                  <b>10,000</b>
                 </li>
-                <li>Unlimited Time</li>
+                <li>15 Paisa Per SMS</li>
+                <li><b>Total Price</b></li>
+                <li>1,500</li>
+                <li><b>Validity</b></li>
+                <li>1 month</li>
+                <li>Free Excel Plugin to send SMS Directly Through Excel</li>
+              </ul>
+              <div class=" center homebutton">
+                <a href="#" class="btn solid-btn btn-block center hh">
+                  Pay Now
+                </a>
+              </div>
+            </div>
+            <div className="slider_price">
+              <h3>Gold</h3>
+              <ul>
                 <li>
-                  <b>Sender Id Based</b>
+                  <b>1,00,000</b>
                 </li>
+                <li>11 Paisa Per SMS</li>
+                 
+                  <li><b>Total Price</b></li>
+                   <li>11,000</li>
+                  <li><b>Validity</b></li>
+                  <li>6 months</li>
+                <li>Free Excel Plugin to send SMS Directly Through Excel</li>
+              </ul>
+              <div class=" center homebutton">
+                <a href="#" class="btn solid-btn btn-block center hh">
+                  Pay Now
+                </a>
+              </div>
+            </div>
+            <div className="slider_price">
+              <h3>Platinum</h3>
+              <ul>
                 <li>
-                  <b>SMS Delivery On DND</b>
+                  <b>5,00,000</b>
                 </li>
-                <li>14 Paisa Per SMS</li>
-                <li>
-                  <li>Quantity: 1 Lac</li>
-                </li>
-                <li>Free API &amp; 100% SMS Deliver</li>
+                <li>9 Paisa Per SMS</li>
+                  <li><b>Total Price</b></li>
+                  <li>45,000</li>
+                <li><b>Validity</b></li>
+                <li>1 year</li>
                 <li>Free Excel Plugin to send SMS Directly Through Excel</li>
               </ul>
               <div class=" center homebutton">
@@ -436,24 +418,16 @@ const Banner = () => {
             </div>
 
             <div className="slider_price">
-              <h3>SIM Based SMS</h3>
+              <h3>Silver</h3>
               <ul>
                 <li>
-                  <b>9000</b>
+                  <b>50,000</b>
                 </li>
-                <li>Unlimited Time</li>
-                <li>
-                  <b>Sender Id Based</b>
-                </li>
-                <li>
-                  <b>SMS Delivery On DND</b>
-                </li>
-                <li>9 Paisa Per SMS</li>
-                <li>
-                  <li>Quantity: 1 Lac</li>
-                </li>
-                <li>Free API &amp; 100% SMS Deliver</li>
-                <li>Free Excel Plugin to send SMS Directly Through Excel</li>
+                <li>13 Paisa Per SMS</li>
+                  <li><b>Total Price</b></li>
+                  <li>65,000</li>
+                  <li><b>Validity</b></li>
+                  <li>3 months</li>
               </ul>
               <div class=" center homebutton">
                 <a href="#" class="btn solid-btn btn-block center hh">

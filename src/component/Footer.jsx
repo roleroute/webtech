@@ -16,12 +16,12 @@ const Footer = () => {
               <div>
                 <h6 className="footer-heading text-uppercase text-white"> Our Services </h6>
                 <ul className="list-unstyled footer-link mt-4">
-                  <li><Link to="/FrontpageBulk_SMS"> Bulk SMS</Link></li>
-                  <li><Link to="/Transactional">Transactional SMS</Link></li>
-                  <li><Link to="/Bulk_sms"> Promotional SMS</Link></li>
-                  <li><Link to="/Voice">Voice Call</Link></li>
-                  <li><Link to="/IVR">IVR</Link></li>
-                  <li><Link to="/TollFree">Tollfree</Link></li>
+                  <li><a href="/FrontpageBulk_SMS"> Bulk SMS</a></li>
+                  <li><a href="/Transactional">Transactional SMS</a></li>
+                  <li><a href="/Bulk_sms"> Promotional SMS</a></li>
+                  <li><a href="/Voice">Voice Call</a></li>
+                  <li><a href="/IVR">IVR</a></li>
+                  <li><a href="/TollFree">Tollfree</a></li>
                 </ul>
               </div>
             </div>
@@ -30,12 +30,12 @@ const Footer = () => {
             <div className="col-lg-2">
               <div>
                 <ul className="list-unstyled footer-link mt-4">
-                  <li><Link to="/Digital">Digital marketing</Link></li>
-                  <li><Link to="/SEO"> SEO Services</Link></li>
-                  <li><Link to="/SMO">SMO Services</Link></li>
-                  <li><Link to="/PPC">PPC services </Link></li>
-                  <li><Link to="/ContextWritting">Content Marketing </Link></li>
-                  <li><Link to="/GoogleMyBussiness">Google My Business </Link></li>
+                  <li><a href="/Digital">Digital marketing</a></li>
+                  <li><a href="/SEO"> SEO Services</a></li>
+                  <li><a href ="/SMO">SMO Services</a></li>
+                  <li><a href="/PPC">PPC services </a></li>
+                  <li><a href="/ContextWritting">Content Marketing </a></li>
+                  <li><a href="/GoogleMyBussiness">Google My Business </a></li>
 
                 </ul>
               </div>
@@ -45,10 +45,10 @@ const Footer = () => {
             <div className="col-lg-2">
               <div>
                 <ul className="list-unstyled footer-link mt-4">
-                  <li><Link to="Development">Development</Link></li>
-                  <li><Link to="/Development">Web Development</Link></li>
-                  <li><Link to="/AndroidDevelopment">App Development</Link></li>
-                  <li><Link to="#">Graphic Design </Link></li>
+                  <li><a href="Development">Development</a></li>
+                  <li><a href="/Development">Web Development</a></li>
+                  <li><a href="/AndroidDevelopment">App Development</a></li>
+                  <li><a href ="#">Graphic Design </a></li>
                 </ul>
               </div>
             </div>
@@ -60,10 +60,12 @@ const Footer = () => {
                 <h6 className="footer-heading text-uppercase text-white">Useful Link</h6>
                 <ul className="list-unstyled footer-link mt-4">
                   <li><Link to="#"> Home</Link></li>
-                  <li><Link to="/About"> About us</Link></li>
-                  <li><Link to="#"> Services</Link></li>
+                  <li><a href="/About"> About us</a></li>
+                  <li><a href="#"> Services</a></li>
                   <li><a href="/Term&Coditions"> T&C Services</a></li>
                   <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
+                  <li><a href="/RefundPolicy">Refund Policy</a></li>
+            
                 </ul>
               </div>
             </div>

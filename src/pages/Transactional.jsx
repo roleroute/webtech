@@ -255,15 +255,14 @@ const Transactional = () => {
 
                     <Slider {...settings}>
                         <div className="slider_price">
-                            <h3>Standard</h3>
+                            <h3>Silver</h3>
                             <ul>
-                                <li><b>65000</b></li>
-                                <li>Unlimited Time</li>
-                                <li><b>Sender Id Based</b></li>
-                                <li><b>SMS Delivery On DND</b></li>
-                                <li>13 Paisa Per SMS</li>
-                                <li>Quantity: 1 Lac</li>
-                                <li>Free API &amp; 100% SMS Deliver</li>
+                                <li><b>50,000</b></li>
+                                <li><b>Validity</b></li>
+                                <li>3 month</li>
+                                <li>16 Paisa Per SMS</li>
+                                <li><b>Total Price</b></li>
+                                <li>8,000</li>
                                 <li>Free Excel Plugin to send SMS Directly Through Excel</li>
                             </ul>
                             <div class=" center homebutton">
@@ -273,15 +272,14 @@ const Transactional = () => {
 
                         </div>
                         <div className="slider_price">
-                            <h3>Unlimited</h3>
+                            <h3>Gold</h3>
                             <ul>
-                                <li><b>12000</b></li>
-                                <li>Unlimited Time</li>
-                                <li><b>Sender Id Based</b></li>
-                                <li><b>SMS Delivery On DND</b></li>
-                                <li>12 Paisa Per SMS</li>
-                                <li><li>Quantity: 1 Lac</li></li>
-                                <li>Free API &amp; 100% SMS Deliver</li>
+                                <li><b>1,00,000</b></li>
+                                <li><b>Validity</b></li>
+                                <li>6 months</li>
+                                <li>14 Paisa Per SMS</li>
+                                <li><b>Total Price</b></li>
+                                <li>14,000</li>
                                 <li>Free Excel Plugin to send SMS Directly Through Excel</li>
                             </ul>
                             <div class=" center homebutton">
@@ -291,13 +289,12 @@ const Transactional = () => {
                         <div className="slider_price">
                             <h3>Basic</h3>
                             <ul>
-                                <li><b>14000</b></li>
-                                <li>Unlimited Time</li>
-                                <li><b>Sender Id Based</b></li>
-                                <li><b>SMS Delivery On DND</b></li>
-                                <li>14 Paisa Per SMS</li>
-                                <li><li>Quantity: 1 Lac</li></li>
-                                <li>Free API &amp; 100% SMS Deliver</li>
+                                <li><b>10,000</b></li>
+                               <li><b>Validity</b></li> 
+                                <li>1 month</li>
+                                <li>18 Paisa Per SMS</li>
+                                <li><b>Total Price</b></li>
+                                <li>1,800</li>
                                 <li>Free Excel Plugin to send SMS Directly Through Excel</li>
                             </ul>
                             <div class=" center homebutton">
@@ -306,15 +303,14 @@ const Transactional = () => {
                         </div>
 
                         <div className="slider_price">
-                            <h3>SIM Based SMS</h3>
+                            <h3>Platinum</h3>
                             <ul>
-                                <li><b>9000</b></li>
-                                <li>Unlimited Time</li>
-                                <li><b>Sender Id Based</b></li>
-                                <li><b>SMS Delivery On DND</b></li>
-                                <li>9 Paisa Per SMS</li>
-                                <li><li>Quantity: 1 Lac</li></li>
-                                <li>Free API &amp; 100% SMS Deliver</li>
+                                <li><b>5,00,000</b></li>
+                                <li><b>Validity</b></li>
+                                <li>1 year</li>
+                                <li>12 Paisa Per SMS</li>
+                                <li><b>Total Price</b></li>
+                                <li>60,000</li>
                                 <li>Free Excel Plugin to send SMS Directly Through Excel</li>
                             </ul>
                             <div class=" center homebutton">
