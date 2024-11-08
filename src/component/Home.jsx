@@ -345,7 +345,7 @@ const Home = () => {
         onChange={handleChange}
       />
       <label htmlFor="checkbox">
-        By clicking on this, you accept our <a href="">terms and conditions</a> and <a href="">Privacy Policy.</a>
+        By clicking on this, you accept our <a href="/Term&Coditions">terms and conditions</a> and <a href="/PrivacyPolicy">Privacy Policy.</a>
       </label>
     </div>
     <button type="submit">Send</button>
