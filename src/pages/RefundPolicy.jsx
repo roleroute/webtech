@@ -19,7 +19,6 @@ const RefundPolicy = () => {
                     merchant(s) listed on the Platform and they have initiated the process of shipping them, or the
                     product is out for delivery. In such an event, you may choose to reject the product at the doorstep.
                 </li><br />
-      
                 <li>
                     2.In case of receipt of damaged or defective items, please report to our customer service team. The
                     request would be entertained once the seller/ merchant listed on the Platform, has checked and

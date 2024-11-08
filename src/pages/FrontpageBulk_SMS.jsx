@@ -168,7 +168,7 @@ const FrontpageBulk_SMS = () => {
               customers. At Webtech Solution, we offer a Transactional SMS
               gateway that works 24 by 7 and for both DND & Non-DND numbers.
             </p>
-            <a href="">Read More...</a>
+            <a href="/Transactional">Read More...</a>
           </div>
           <div className="International-SMS2">
             <img
@@ -185,7 +185,7 @@ const FrontpageBulk_SMS = () => {
               the promotional SMSs using a unique sender ID and during business
               hours only.
             </p>
-            <a href="">Read More...</a>
+            <a href="/Bulk_sms">Read More...</a>
           </div>
           <div className="International-SMS2">
             <img
@@ -202,7 +202,7 @@ const FrontpageBulk_SMS = () => {
               access the delivery report, customise SMS templates, and check
               other such details on their system.
             </p>
-            <a href="">Read More...</a>
+            <a href="/Bulk_sms">Read More...</a>
           </div>
         </div>
       </div>

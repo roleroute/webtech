@@ -120,8 +120,8 @@ const MyForm = () => {
           />
           <label htmlFor="x">
             By Clicking on the same you are accepting our{" "}
-            <a href="">terms and condition</a> and{" "}
-            <a href="">Privacy Policy.</a>
+            <a href="/Term&Coditions">terms and condition</a> and{" "}
+            <a href="/PrivacyPolicy">Privacy Policy.</a>
           </label>
         </div>
         <div class="send">
