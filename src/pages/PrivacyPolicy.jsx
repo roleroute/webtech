@@ -60,7 +60,7 @@ This information is compiled and analysed on an aggregated basis. We will also c
       </p>
      <p><b>Designation: Admin</b></p>
      <p><b>Name and Address of the Company:</b></p>
-     <p>Webtech Age Pvt Ltd </p>
+     <p>Webtechage Private Limited </p>
      <p><b>Contact us:</b></p>
       <p><b>Phone:</b>8745912912</p>
       <p><b>Time:</b>Monday - Friday(9:00 - 18:00)</p>

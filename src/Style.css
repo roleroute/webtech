@@ -2048,12 +2048,17 @@ ol, ul{
 .New-banner {
   width: 100%;
   height: 100vh;
-  background-image: url(https://webtechsolution.co/assets1/img/service/bulkmessage.jpg);
+  background-image: url(https://lh3.googleusercontent.com/proxy/K2uIWrHPWBlE72w6yRfuiX2rETMdNydTLeS4bw2tYA9SmMtlisZlo9bTLnZ5jAkSXc8dEK0Y8jBGjj5Aa-nNm4xSPFN0t1tdAeWwk-AxhuqwDq6smTt8wTc);
   display: flex;
   gap: 20px;
   justify-content: center;
   background-size: cover;
   background-position: center;
+}
+
+.Copyright2 a{
+  color: white;
+  text-decoration: none;
 }
 
 .IVRToll p1 {

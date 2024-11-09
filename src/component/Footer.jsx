@@ -108,18 +108,20 @@ const Footer = () => {
 
         <div className="Copyright">
           <div className="Copyright-outter">
-            <div className="Copyright-inner">
+            <div className="Copyright-inner Copyright2">
               <BsTelephone />
              <div>
-             <h2>+91 70656 80680</h2>
+             <h2>
+             <a href="tel:+91 70656 80680">+91 70656 80680</a></h2>
              <p>Mon-sat 10:am to 12pm</p>
              </div>
 
             </div>
-            <div className="Copyright-inner">
+            <div className="Copyright-inner Copyright2">
               <BsEnvelope />
               <div>
-              <h2>info@webtechage.com</h2>
+              <h2>
+                <a href="tel:info@webtechage.com">info@webtechage.com</a></h2>
               <p>Emial Us</p>
               </div>
             </div>
