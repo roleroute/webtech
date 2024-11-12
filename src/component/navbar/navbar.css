@@ -54,7 +54,7 @@ nav ul {
     gap: 30px;
     margin: 12px;
     margin-top: 12px;
-    z-index: 10000;
+    z-index: 111 !important;
 }
 
 
@@ -234,7 +234,6 @@ nav ul {
 
 .dropdown {
     position: relative;
-    z-index: 999999999;
 }
 
 .menu-dropdown {
@@ -250,7 +249,6 @@ nav ul {
     background-color: white;
     visibility: hidden;
     opacity: 0;
-    z-index: 999999999;
 }
 
 .main-ul li{
