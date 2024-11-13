@@ -11,7 +11,7 @@ const Card6 = (props) => {
                 <div className="card6-content">
                     <h3>{props.title} </h3>
 
-                    <a href={props.id}>Read More <MdArrowRightAlt /></a> 
+                    <a href={props.id}>Read More<MdArrowRightAlt/></a> 
                     </div>
 
                 </div>

@@ -1083,7 +1083,9 @@ ol, ul{
 
 .callback-form {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 40px
+  
+ 
 }
 
 .close-button {
@@ -4197,8 +4199,6 @@ object-fit: none;
   flex-direction: column;
 
 }
-
-
   .phone-input-inner {
     margin-top: 50px;
   }
@@ -4690,9 +4690,7 @@ width: 100%;
   height: auto;
   margin: auto;
   width: 100%;
-  
 }
-
 .our-header .react-tabs__tab-list{
   flex-direction: column;
 }
@@ -5614,4 +5612,11 @@ header{
   justify-content: start;
   display: block;
 }
+.callback-form {
+ padding: -12px !important;
+}
+.container-form{
+  flex-direction: column !important;
+}
+
 }
