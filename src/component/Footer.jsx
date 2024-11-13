@@ -21,7 +21,7 @@ const Footer = () => {
                   <li><a href="/Bulk_sms"> Promotional SMS</a></li>
                   <li><a href="/Voice">Voice Call</a></li>
                   <li><a href="/IVR">IVR</a></li>
-                  <li><a href="/TollFree">Tollfree</a></li>
+                  <li><a href="/TollFreeIVR">Tollfree</a></li>
                 </ul>
               </div>
             </div>
